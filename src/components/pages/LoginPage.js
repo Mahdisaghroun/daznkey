@@ -32,7 +32,7 @@ export default function SignInPage() {
 
         var config = {
             method: 'post',
-            url: 'http://45.86.191.43/5100/api/license',
+            url: 'http://45.86.191.43:5100/api/license',
             headers: {
                 'Content-Type': 'application/json'
             },
